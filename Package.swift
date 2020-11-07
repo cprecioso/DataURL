@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "DataURL",
-    platforms: [.macOS(.v11), .iOS(.v14)],
-    products: [
-        .library(
-            name: "DataURL",
-            targets: ["DataURL"]),
-    ],
-    targets: [
-        .target(
-            name: "DataURL",
-            dependencies: []),
-    ]
+  name: "DataURL",
+  platforms: [.macOS(.v11), .iOS(.v14)],
+  products: [
+    .library(
+      name: "DataURL",
+      targets: ["DataURL"])
+  ],
+  targets: [
+    .target(
+      name: "DataURL",
+      dependencies: [])
+  ]
 )
